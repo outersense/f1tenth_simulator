@@ -1,15 +1,17 @@
 # The distance between the front and
 # rear axle of the racecar
-wheelbase: 0.3302 # meters
+wheelbase: 0.26 # meters
 # width of racecar
-width: 0.2032 # meters
+width: 0.20 # meters
 
 # steering delay
-buffer_length: 5
+buffer_length: 7
 
 # Limits on the speed and steering angle
-max_speed: 7. #  meters/second
+max_speed: 0.25 #  meters/second
 max_steering_angle: 0.4189 # radians
+
+# TODO: Are these used in the Kinematic model?
 max_accel: 7.51 # meters/second^2
 max_decel: 8.26 # meters/second^2
 max_steering_vel: 3.2 # radians/second
